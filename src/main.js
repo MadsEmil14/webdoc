@@ -9,6 +9,6 @@ inView(".pierre", () => {
   animate(".facts_animation", { y: [+2000, -650] }, { duration: 3.5 });
 });
 
-inView("spotlight_1", (info) => {
-  animate(info.target, { opacity: 1 });
+inView(".spotlight_1", () => {
+  animate(".light", { opacity: 1 }, { duration: 10 });
 });
