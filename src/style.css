@@ -38,7 +38,7 @@
     z-index: -1;
     border-radius: 50%;
     filter: blur(70px);
-    transition: 0.3s;
+    transition: 0.5s;
     opacity: 0;
   }
 
@@ -47,5 +47,16 @@
     background-size: cover;
     height: 100vh;
     background-position: center center;
+  }
+
+  .img_text_overlap {
+    background-image: url("img/skillevej.webp");
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+  }
+
+  .baggrundsfarve {
+    background-color: aqua;
   }
 }
