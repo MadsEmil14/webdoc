@@ -31,8 +31,7 @@
     opacity: 1;
   } */
 
-  .spotlight_1::before {
-    content: "";
+  .light {
     position: absolute;
     inset: 0;
     background: #fff;
