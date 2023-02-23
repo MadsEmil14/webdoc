@@ -22,11 +22,7 @@ document.querySelectorAll("article > div").forEach((light) => {
 });
 
 inView(".filmrulle_tekst_mobil", () => {
-  animate(
-    ".filmrulle_tekst_mobil",
-    { opacity: [0, 0.3, 0.5, 0.7, 1] },
-    { duration: 5 }
-  );
+  animate(".filmrulle_tekst_mobil", { y: [+2000, 0] }, { duration: 2.5 });
 });
 
 inView(".filmrulle_stock_web", () => {
@@ -35,4 +31,17 @@ inView(".filmrulle_stock_web", () => {
 
 inView(".filmrulle_analog", () => {
   animate(".filmrulle_tekst_analog_web", { x: [-2000, 0] }, { duration: 3.5 });
+});
+
+// Progress Bar
+
+scroll(animate(".progress-bar", { scaleX: [0, 1] }));
+
+// parallaxscrolling
+
+document.querySelectorAll(".parallaxcontainer").forEach((parallaxcontainer) => {
+  const elementderskalparallaxes = parallaxcontainer.querySelector("h3");
+  scroll(animate(elementderskalparallaxes, { y: [-200, 200] }), {
+    target: elementderskalparallaxes,
+  });
 });
