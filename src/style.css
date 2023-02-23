@@ -51,15 +51,16 @@
 
   .img_text_overlapi_skillevej {
     background-image: url("img/skillevej.webp");
+
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     background-position: center center;
   }
 
   .img_text_overlap_newbeginning {
     background-image: url("img/bil-smidt-ud.webp");
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     background-position: center center;
   }
 }

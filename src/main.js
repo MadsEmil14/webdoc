@@ -10,6 +10,10 @@ inView(".headline", () => {
   animate(".headline", { opacity: [0, 1] }, { duration: 5 });
 });
 
+inView(".pierres_berømmelse", () => {
+  animate(".pierres_berømmelse", { opacity: [0, 1] }, { duration: 5 });
+});
+
 inView(".pierre", () => {
   animate(".facts_animation", { y: [+2000, -650] }, { duration: 3.5 });
 });
@@ -38,5 +42,5 @@ inView(".filmrulle_tekst_mobil", () => {
 });
 
 inView(".filmrulle_stock_web", () => {
-  animate(".filmrulle_tekst_web", { x: [-2000, 0] }, { duration: 3.5 });
+  animate(".filmrulle_tekst_web", { x: [+2000, 0] }, { duration: 3.5 });
 });
