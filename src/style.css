@@ -26,12 +26,25 @@
     position: relative;
     padding: 6rem;
   }
+  .spotlight_2 {
+    position: relative;
+  }
 
   /* .spotlight_1:hover::before {
     opacity: 1;
   } */
 
   .light {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(70px);
+    transition: 0.3s;
+    opacity: 0;
+  }
+  .light_2 {
     position: absolute;
     inset: 0;
     background: #ffffff;
