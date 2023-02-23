@@ -3,7 +3,7 @@ import { animate, stagger, inView, scroll, timeline } from "motion";
 import { info } from "autoprefixer";
 
 inView(".headline", () => {
-  animate(".headline", { opacity: [0, 1] }, { duration: 5 });
+  animate(".headline", { opacity: [0, 1] }, { duration: 3 });
 });
 
 inView(".pierres_berømmelse", () => {
