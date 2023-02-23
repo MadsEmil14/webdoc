@@ -2,8 +2,12 @@ import "./style.css";
 import { animate, stagger, inView, scroll, timeline } from "motion";
 import { info } from "autoprefixer";
 
-inView(".headline_animation", () => {
-  animate(".headline_animation", { y: [+2000, 0] }, { duration: 2.5 });
+// inView(".headline", () => {
+//   animate(".headline", { y: [+2000, 0] }, { duration: 2.5 });
+// });
+
+inView(".headline", () => {
+  animate(".headline", { opacity: [0, 1] }, { duration: 5 });
 });
 
 inView(".pierre", () => {
