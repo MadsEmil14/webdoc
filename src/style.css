@@ -16,7 +16,7 @@
 
 @layer components {
   .hero_img {
-    background-image: url("img/glitch.jpg");
+    background-image: url("../img/glitch.jpg");
     background-size: cover;
     height: 90vh;
     background-position: center center;
@@ -56,14 +56,14 @@
   }
 
   .amarminoen_img {
-    background-image: url("img/lake.webp");
+    background-image: url("../img/lake.webp");
     background-size: cover;
     height: 100vh;
     background-position: center center;
   }
 
   .img_text_overlapi_skillevej {
-    background-image: url("img/skillevej.webp");
+    background-image: url("../img/skillevej.webp");
 
     background-size: cover;
     height: 100vh;
@@ -71,7 +71,7 @@
   }
 
   .img_text_overlap_newbeginning {
-    background-image: url("img/bil-smidt-ud.webp");
+    background-image: url("../img/bil-smidt-ud.webp");
     background-size: cover;
     height: 100vh;
     background-position: center center;
